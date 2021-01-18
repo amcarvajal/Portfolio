@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Carvajal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="images/triangle.png">
+    
+</head>
+<body>
+    <div id="line">
+        <!--<i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>-->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <!-- <li><a href="#">Home</a></li> -->
+                  <li><a href="#main">About</a></li>
+                  <li><a href="#projects">Work</a></li>
+                  <li><a href="#h-contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+            <div id="line-two">
+                <span id="made">Made with </span>
+                <i class="fab fa-html5" title="Html5"></i>
+                <i class="fab fa-js-square" title="Javascript"></i>
+                <i class="fab fa-css3-alt" title="Css3"></i>            
+            </div>
+        </div>
+    
+    
+    <div id="logo">
+        <img src="images/triangle.png" alt="triangle" id="triangle">
+        <img src="images/triangle.png" alt="triangle2" id="triangle2">
+        <div id="name-header">
+            <h2>Miguel Carvajal</h2>
+            <h3>Front-End web Developer</h3>
+        </div>
+    </div>
+        <article id="main">
+                <h3 id="info">Who's this guy?</h3>
+                
+                        <p id="p-info">
+                            I am a web developer and UX designer based in the beautiful city of Seville,
+                            Spain.
+                        </p>
+                        <p id="p-info">
+                            After <strong>two</strong> years working in <strong>Amsterdam</strong> as waiter just to learn English and a bit of Dutch, 
+                            I returned to my country to take a <strong>React</strong> and <strong>Angular</strong> Bootcamp. I consider myself an enthusiastic 
+                            and proactive person, always eager to learn and give my best.
+                        </p>
+                        <p id="p-info">
+                            I really enjoy solving problems as well as making things pretty and easy to use. I
+                            can't stop learning new things; the more, the better.
+                        </p>
+                    
+                <h3 id="info2">What does he do?</h3>
+                <div class="row">
+                <div class="column">
+                    <div id="card1">
+                        <h4>I'm a programmer.</h4>
+                        <span>For the front-end I usually work with Html5, Css(starting to implement Sass and Less to my websites) and Javascript, starting to implement
+                            populars frameworks like Angular and React. Whenever needed, any of their friends: Bootstrap, CMS's etc.</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="card2">
+                        <h4>Also a designer.</h4>
+                        <span>I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign. I'm not limited to them, though: Gimp, Inkscape or Figma are also
+                            very valid applications that I've been working with.</span>
+                    </div>
+                </div>
+            </div>
+                <div id="encuest">
+                <h4 OnClick="ocultar();" >Html5</h4> <span id="progres">100%</span>
+                <div class="progressBarContainer">
+                    <div class="progressBarValue value-100"></div>
+                </div>
+                <h4  OnClick="ocultar1();">Css3</h4> <span id="progres1">90%</span>
+                    <div class="progressBarContainer">
+                        <div class="progressBarValue value-90"></div>
+                    </div>
+                <h4 OnClick="ocultar2();">JavaScript</h4> <span id="progres2">50%</span>
+                    <div class="progressBarContainer">
+                        <div class="progressBarValue value-50"></div>
+                    </div>
+                <h4 OnClick="ocultar3();">Wordpress, Drupal...</h4> <span id="progres3">80%</span>
+                    <div class="progressBarContainer">
+                        <div class="progressBarValue value-80"></div>
+                    </div>
+            </div>
+            <h3 id="h3-work">Works</h3>
+            <div id="projects">
+                <div id="card-coinhub">
+                    <h4>Coin-Hub</h4>
+                       <a href="../Coin-hub/index.html" target="_blank" rel="noopener noreferrer">
+                        	<div id="coinhub"></div>  </a>
+                  		     
+                </div>        
+            
+                <div id="card-calcapp">
+                    <h4>Calculator</h4>
+                        <a href="../CalcApp/calculadora.html" target="_blank" rel="noopener noreferrer">
+                        <div id="calcapp"></div>  </a> 
+                </div>
+              
+             	 <div id="card-sneaker">
+                    <h4>Sneaker Shop</h4>
+                        <a href="../sneaker-lab/index.html" target="_blank" rel="noopener noreferrer">
+                        <div id="sneakerlab"></div>  </a> 
+                </div>
+
+                <div id="card-music-player">
+                    <h4>Music Player</h4>
+                        <a href="../Music-Player/index.html" target="_blank" rel="noopener noreferrer">
+                        <div id="musciplayer"></div>  </a> 
+                </div>
+                   
+            </div>
+        </article>
+        <article id=contact> 
+
+
+            <form action="action.php" method="post">
+                <h1 id="h-contact">Contact</h1>
+                <label>Name</label>
+                    <input type="text" name="first_name"  id="name" placeholder="Name" required>
+                <label>Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+                <label for="message" id="message">Message</label><br>
+                <textarea name="message" id="textarea" required></textarea>
+                <input type="submit" value="Send" id="send" >
+            </form>
+
+
+
+            <div id="text-goodbye">
+                <p>I'm a <strong>hard worker</strong>, committed and self learner. Definitely,<strong> I'm not a guru jedi rockstar ninja,</strong> 
+                    but I always get my stuff done. 
+                    I am actively looking for work, in order to further develop my skills and give <strong>120%</strong> of myself </p>
+                <p>
+                    I'll be really happy to respond you as soon as posible.
+                </p>
+            </div>
+        </article>
+        <footer>
+            <i class="fab fa-linkedin" title="Linkedin"></i>
+            <i class="fab fa-github" title="Github"></i>
+            <span id="copyright">Copyright© 2021 All Rights Reserved by Miguel Carvajal</span><br>
+            <span id="mail"><a href="mailto:amcarvajal15@gmail.com" id="email-footer">amcarvajal15@gmail.com</a></span>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="load-screen.html">
+</body>
+</html>
